@@ -1,5 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .hello {
-    color: blueviolet;
+    color: black;
     font-size: larger;
     font-family: serif;
+    position: absolute;
+    top: 33%;
 }
