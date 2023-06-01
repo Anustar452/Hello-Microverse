@@ -1,0 +1,24 @@
+name: Lint
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tidy csslint
+      - name: Lint HTML
+        run: |
+          find . -name "*.html" -print0 | xargs -0 tidy -q -e
+      - name: Lint CSS
+        run: |
+          find . -name "*.css" -print0 | xargs -0 csslint
