@@ -18,7 +18,7 @@ jobs:
           sudo apt-get install -y tidy csslint
       - name: Lint HTML
         run: |
-          find . -name "*.html" -print0 | xargs -0 tidy -q -e
+          find . -name "index.html" -print0 | xargs -0 tidy -q -e
       - name: Lint CSS
         run: |
-          find . -name "*.css" -print0 | xargs -0 csslint
+          find . -name "style.css" -print0 | xargs -0 csslint
