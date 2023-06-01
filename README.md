@@ -28,7 +28,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-- Hello-Microverse(#about-project)
+- Hello-Microverse(#The first Microverse solo project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -188,7 +188,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Previous Micronaut and The reviewers
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
